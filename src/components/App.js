@@ -19,7 +19,7 @@ function App() {
   }, [html, css, js]);
 
   return (
-    <>
+    <React.Fragment>
       <div className="pane top-pane">
         <Editor
           language="xml"
@@ -49,7 +49,7 @@ function App() {
           height="100%"
         />
       </div>
-    </>
+    </React.Fragment>
   );
 }
 
